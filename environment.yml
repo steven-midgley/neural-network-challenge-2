@@ -1,0 +1,19 @@
+name: neural_network_2
+channels:
+  - conda-forge
+  - defaults
+  - apple
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - tensorflow>=2.13
+  - scikit-learn
+  - shap
+  - ipykernel
+  - matplotlib
+  - pip
+  - pip:
+      - ace_tools_open
+      - tensorflow-macos
+      - tensorflow-metal
